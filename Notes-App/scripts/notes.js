@@ -106,4 +106,4 @@ const notesData = [
   },
 ];
 
-console.log(notesData);
+export { notesData };
