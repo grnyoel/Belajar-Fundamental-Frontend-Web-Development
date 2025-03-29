@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App Gerent</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <app-header></app-header>
+
+    <main class="container">
+      <section class="notes-form-section">
+        <note-form></note-form>
+      </section>
+
+      <section class="notes-list-section">
+        <h2>Your Notes</h2>
+        <div class="notes-grid" id="notesContainer"></div>
+      </section>
+    </main>
+
+    <script src="scripts/components/AppHeader.js" type="module"></script>
+    <script src="scripts/components/NoteItem.js" type="module"></script>
+    <script src="scripts/components/NoteForm.js" type="module"></script>
+    <script src="scripts/notes.js" type="module"></script>
+    <script src="scripts/index.js" type="module"></script>
+  </body>
+</html>
